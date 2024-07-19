@@ -1,0 +1,51 @@
+.social_icon {
+    width: 22px;
+    height: 22px;
+    background-color: #9AB044;
+  }
+.pricingCard:not(:last-child) .divider{
+  border: 1px dashed #009DE2;
+  width: 0px;
+  margin-right: 10px;
+}
+.pricingCard:last-child{
+  margin-bottom: 0px;
+}
+.overlay {
+  background: rgba(248,253,255,90%) !important;
+}
+
+.plan-time-wrapper:hover {
+  box-shadow: 0px 5px 44px 0px #2028341A;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.plan-time-wrapper .svg {
+  background: var(--dim-gray);
+  color: #000;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.plan-time-wrapper:hover .svg {
+  background: black;
+  color: #fff;
+}
+
+/* .bottom-border::after {
+  content: '';
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 2px;
+  background: #f1f1f1;
+} */

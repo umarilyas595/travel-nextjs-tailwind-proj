@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "name":"Birthday"
+    },
+    {
+        "id": 2,
+        "name":"Bachelor Party"
+    },
+    {
+        "id": 3,
+        "name":"Bachelorette party"
+    },
+    {
+        "id": 4,
+        "name":"Wedding"
+    },
+    {
+        "id": 5,
+        "name":"Engagement"
+    },
+    {
+        "id": 6,
+        "name":"Traveling for fun"
+    },
+    {
+        "id": 7,
+        "name":"Family vacation"
+    },
+    {
+        "id": 8,
+        "name":"Just looking to party"
+    },
+    {
+        "id": 9,
+        "name":"Reunion"
+    },
+    {
+        "id": 10,
+        "name":"Honeymoon"
+    },
+    {
+        "id":11,
+        "name":"Anniversary"
+    }
+]

@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+    --dim-gray: #E8E8E8;
+    --lite-gray: #938E8E;
+    --gray: #676767;
+    --blue: #009DE2;
+    --green: #9AB044;
+    --lite-green: #F1F9D3;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #2D2D2D; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #161616; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/fonts/gilroy/Gilroy-ThinItalic.ttf);
+    src: url(/fonts/gilroy/Gilroy-Thin.ttf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/fonts/gilroy/Gilroy-LightItalic.ttf);
+    src: url(/fonts/gilroy/Gilroy-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/fonts/gilroy/Gilroy-RegularItalic.ttf);
+    src: url(/fonts/gilroy/Gilroy-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/fonts/gilroy/Gilroy-MediumItalic.ttf);
+    src: url(/fonts/gilroy/Gilroy-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/fonts/gilroy/Gilroy-SemiBoldItalic.ttf);
+    src: url(/fonts/gilroy/Gilroy-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/fonts/gilroy/Gilroy-BoldItalic.ttf);
+    src: url(/fonts/gilroy/Gilroy-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/fonts/gilroy/Gilroy-ExtraBoldItalic.ttf);
+    src: url(/fonts/gilroy/Gilroy-ExtraBold.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/fonts/gilroy/Gilroy-HeavyItalic.ttf);
+    src: url(/fonts/gilroy/Gilroy-Heavy.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "lato";
+    src: url(/fonts/Lato/Lato-Regular.ttf);
+    font-weight: 500;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+.width {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sm-width {
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.gilroy {
+    font-family: 'Gilroy';
+}
+
+.lato {
+    font-family: "lato";
+}
+
+.Poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fit-screen {
+    overflow: hidden;
+}
+
+body.fit-screen::-webkit-scrollbar {
+    display: none;
+}
+
+.large-shadow {
+    box-shadow: 0px 5px 44px 0px #2028341A;
+}
+
+.plan{
+    letter-spacing: 8px;
+}
+
+.letter-spacing{
+    letter-spacing: 3px;
+}

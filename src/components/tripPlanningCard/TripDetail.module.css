@@ -1,0 +1,56 @@
+@media screen and (max-width: 620px) {
+    .activity_arrow_prev{
+        left: -30px !important;
+    }
+    .activity_arrow_prev_disabled{
+        left: -30px !important;
+    }
+    .activity_arrow_next{
+        right: -30px !important;
+    }
+}
+.activity_arrow_prev{
+    left: -40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    background: #009de2;
+    width: 30px;
+    height: 30px;
+    border-radius: 10%;
+}
+.activity_arrow_next{
+    right: -40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    background: #009de2;
+    width: 30px;
+    height: 30px;
+    border-radius: 10%;
+}
+
+.activity_arrow_prev_disabled{
+    left: 0px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    background: lightgray;
+    width: 30px;
+    height: 30px;
+    border-radius: 10%;
+}
+
+.activity_arrow_next_disabled{
+    right: -10px;
+    position: absolute;
+    top: 50px;
+    color: white;
+    background: lightgray;
+    width: 30px;
+    height: 30px;
+    border-radius: 10%;
+}

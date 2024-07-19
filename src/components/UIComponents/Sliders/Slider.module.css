@@ -1,0 +1,108 @@
+.slick-prev {
+    right: 4.5rem !important;
+    position: absolute;
+    top: -5rem;
+    color: white;
+    background: #009de2;
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    box-shadow: 0px 8px 20px 0px #5FABCD78;
+}
+.slick-next {
+    right: 2rem !important;
+    position: absolute;
+    top: -5rem;
+    display: flex;
+    background: #009DE2;
+    width: 30px;
+    height: 30px;
+    color: white;
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    box-shadow: 0px 8px 20px 0px #5FABCD78;
+}
+.slick-prev-disabled{
+    right: 4.5rem !important;
+    position: absolute;
+    top: -5rem;
+    color: white;
+    background: lightgray;
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    box-shadow: 0px 8px 20px 0px lightgray;
+}
+.slick-next-disabled{
+    right: 2rem !important;
+    position: absolute;
+    top: -5rem;
+    display: flex;
+    background: lightgray;
+    width: 30px;
+    height: 30px;
+    color: white;
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    box-shadow: 0px 8px 20px 0px lightgray;
+}
+@media screen and (max-width: 800px) {
+    .slick-prev,.slick-next{
+        top: -0.1rem !important;
+    }
+    .slick-prev-disabled,.slick-next-disabled{
+        top: -0.1rem !important;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .slick-prev,.slick-next{
+        top: -0.6rem !important;
+    }
+    .slick-prev-disabled,.slick-next-disabled{
+        top: -0.6rem !important;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .slick-prev,.slick-next{
+        top: 0.8rem !important;
+    }
+    .slick-prev-disabled,.slick-next-disabled{
+        top: 0.8rem !important;
+    }
+}

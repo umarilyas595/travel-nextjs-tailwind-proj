@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name":"Beaches"
+    },
+    {
+        "id": 2,
+        "name":"Mountains"
+    },
+    {
+        "id": 3,
+        "name":"Clubs"
+    },
+    {
+        "id": 4,
+        "name":"Restaurants"
+    },
+    {
+        "id": 5,
+        "name":"Romance"
+    },
+    {
+        "id": 6,
+        "name":"Aquatic Activities"
+    },
+    {
+        "id": 7,
+        "name":"Outdoor Activities"
+    },
+    {
+        "id": 8,
+        "name":"Music Festivals"
+    },
+    {
+        "id": 9,
+        "name":"Camping"
+    }
+]

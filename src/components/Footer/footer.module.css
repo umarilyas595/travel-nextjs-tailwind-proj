@@ -1,0 +1,23 @@
+.footer {
+  background-color: #1a1919;
+  width: 100%;
+  position: relative;
+}
+.social_icon {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+}
+.copyright {
+  letter-spacing: 5px;
+}
+
+@media screen and (max-width: 670px) {
+  .copyright {
+    letter-spacing: 1px;
+  }
+}
+.border_gradient {
+    border: 1px solid;
+    border-image: linear-gradient(270deg,#1a1919,white, #1a1919) 1;
+}
